@@ -1,0 +1,791 @@
+.top{
+    height: 56px;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    column-gap:0;
+    
+}
+body{
+    background-color: rgb(2, 4, 42);
+    color:white;
+}
+#image{
+    align-self: center;
+    height: 40px;
+    width: 138px;
+    background-size: cover;
+    background-image: url(https://media.razorpay.com/file/Platform/growth/payroll-index-2023-logo.png);
+    margin-right: 60px;
+}
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box1{
+    display:flex;
+    justify-content: start;
+    margin-left: 60px;
+
+}
+#text{
+    font-size: 16px;
+    color: black;
+    align-self: center;
+}
+#startbutton{
+    display:flex;
+    width: 90px;
+    height: 28px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: #ff5b15;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+#startbutton:hover {
+    color: black;
+}
+.navbar{
+    height:92px;
+    display: flex;
+    justify-content: space-evenly;
+
+    }
+
+#logo{
+    height: 90px;
+    width: 250px;
+    background-image: url(https://miro.medium.com/v2/resize:fit:7480/1*qUUATIBwysfZ6X5mds0KUg.png);
+    background-size:contain;
+    cursor: pointer;
+}
+#dd1
+{
+    height:92px;
+    align-items: center;
+}
+#dd2
+{
+    height:92px;
+}
+#dd3
+{
+    height:92px;
+}
+#dd4
+{
+    height:92px;
+}
+#dd5
+{
+    height:92px;
+}
+#dd6
+{
+    height:92px;
+}
+#dd7
+{
+    height:92px;
+}
+.dds
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 1ms;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.dds:hover
+{
+    color: rgb(0, 0, 228);
+    text-decoration: underline;
+    text-decoration-color:rgb(0, 0, 228) ;
+    text-underline-offset: 20px ;
+    text-decoration-thickness: 4px;
+}
+.dds1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.dds1:hover{
+    color: rgb(0, 0, 228);
+}
+
+#nav-right{
+    height:92px;
+    width:282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+
+#country{
+    height: 92px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 4, 42) ;
+    cursor: pointer;
+}
+
+.span
+{
+    height: 22px;
+    width:35px;
+    display: flex ;
+    flex-direction: row; 
+    background-color:rgb(2, 4, 42) ;
+}
+#flag{
+    background-image: url(https://razorpay.com/build/browser/static/indian-flag.a7d181aa.svg);
+    background-size: cover;
+    height:25px;
+    width:28px;
+    justify-self: flex-start;
+}
+#icon{
+    height: 15px;
+    width:15px;
+}
+#login{
+    height: 42px;
+    width: 82px;
+    display: flex;
+    border: 1px solid ;
+    border-radius: 2px;
+    border-color:rgb(0, 0, 228) ;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#signup
+{
+    height:42px;
+    width:115px;
+    display:flex;
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#frame1
+{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#frame1left
+{
+    height: 300px;
+    width: 410px;;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    margin-left: 50px;
+    
+
+}
+#h{
+
+    font-weight:700;
+    font-size: 250%;
+}
+#line
+{
+    height: 36px;
+    width:410px ;
+    display: flex;
+    
+    align-items: center;
+
+
+}
+#l
+{
+    height: 4px;
+    width: 24px;
+    color:rgb(2, 4, 42) ;
+    text-decoration: line-through;
+    text-decoration-color: rgb(41, 255, 184);
+    text-decoration-thickness: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#texts
+{
+    height: 84px;
+    width: 410px;
+    color: darkgray;
+    margin-top: 30px;
+    line-height: 140%;
+}
+#signupnow
+{
+    height: 50px;
+    width:160px;
+    background-color: rgba(43, 132, 234,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 1ms;
+    transition-timing-function: ease-in-out;
+    margin-top: 20px;
+}
+#signupnow:hover
+{
+  background-color:rgb(50, 50, 246) ;
+}
+#frame1right
+{
+    height: 558px;
+    width: 700px;
+    background-image: url(https://razorpay.com/build/browser/static/home-desktop.4a9233fc.jpg);
+    background-size: cover;
+}
+#top2
+{   
+    height: 63px;;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#logo2
+{
+    height: 63px;
+    width:150px;
+    display: flex;
+    background-image: url(https://www.ecommerce-nation.com/wp-content/uploads/2019/02/razorpay.webp);
+    background-size: cover;
+    cursor: pointer;
+    margin-left: 40px;
+    align-self: center;
+}
+#top2right
+{
+    display: flex;
+    justify-self: flex-end;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+#flag2
+{
+    height: 31px;
+    width: 28px;
+    background-image: url(https://razorpay.com/build/browser/static/indian-flag.a7d181aa.svg);
+    background-size: cover;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#start
+{
+    display: flex;
+    justify-items: center;
+    height: 36px;
+    width:250px;
+    background-color: rgba(43, 132, 234,1) ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 50px;
+
+}
+#start:hover{
+    border: 4px, solid, black;
+}
+#section2
+{
+ background-color: white;
+ align-content: center;
+ height: 1300px;
+}
+
+#frame2
+{
+    height: 700px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+#a
+{
+    text-align: center;
+    font-size: 150%;
+    font-weight: 900;
+    
+}
+#line2
+{
+    height: 36px;
+    text-align: center;
+    color: white;
+    text-decoration: line-through;
+    text-decoration-color: rgb(66, 210, 162);
+    text-decoration-thickness: 4px;
+}
+
+#pg{
+    height: 522px;
+    width:1080px;
+    border: 1px solid;
+    border-color: rgb(186, 184, 184);
+    border-radius: 8px;
+    align-self: center;
+    display: flex;
+    margin-top: 50px;
+
+}
+#pgleft
+{
+    width:510px;
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+}
+#text2
+{
+    font-size: 180%;
+    font-weight: bold;
+}
+
+
+
+ul{
+    list-style-type: none;
+    font-size: 110%;
+     opacity: 75%;
+    justify-self: flex-start;
+    padding: 0;
+    line-height: 40px;
+}
+#buttons
+{
+    height: 113px;
+    width: 982px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 60px;
+}
+#signupnow2
+{
+    height: 50px;
+    width:160px;
+    background-color: rgba(43, 132, 234,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 1ms;
+    transition-timing-function: ease-in-out;
+}
+#signupnow2:hover
+{
+    background-color:rgb(50, 50, 246) ;
+}
+
+#knowmore
+{
+   height: 50px;
+   width: 132px;
+   display: flex;
+   font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1ms;
+    transition-timing-function: ease-in-out;
+}
+#knowmore:hover
+{
+    color: darkgray;
+}
+#pgright{
+    height: 522px;
+    width: 650px;
+    background-image: url(https://theovaku.com/wp-content/uploads/2023/05/razorpay.jpg);
+    background-size: cover;
+    background-position:center;
+}
+#boxes
+{
+    height: 466px;
+    width: 1080px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: space-between;
+    justify-self: center;
+    align-self: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.box
+{
+    height: 225px;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: rgb(186, 184, 184);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.box:hover
+{
+
+        box-shadow: 5px 5px 5px rgb(180, 179, 179);
+      
+}
+#box1
+{
+    margin-left: 0;
+}
+.top3
+{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.middle
+{
+ color: darkgray;
+ font-size: 110%;
+}
+
+.bottom
+{
+    color: rgba(43, 132, 234,1) ;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#find
+{
+    height: 55px;
+    width: 1040px;
+    background-color: rgb(186, 216, 255);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgb(62, 146, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
+#p1
+{
+    color: black;
+    font-weight: 800;
+}
+#p2
+{
+    color: rgb(173, 173, 173);
+}
+#p3
+{
+    color:rgba(43, 132, 234,1) ;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all;
+    transition-timing-function: ease-in;
+    transition-duration: 2ms;
+}
+#p3:hover
+{
+  color: white;
+  background-color: rgb(87, 87, 255);
+
+}
+#section3
+{
+    height:1150px;
+}
+#bb
+{
+    height: 1150px;
+    width: 1080px;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    margin-top: 50px;
+    font-weight: 900;
+}
+#line3
+{
+    height: 36px;
+    text-align: center;
+    color:rgb(2, 4, 42);
+    text-decoration: line-through;
+    text-decoration-color: rgb(66, 210, 162);
+    text-decoration-thickness: 4px;
+}
+#bbox
+{
+    height: 483px;
+    width: 1080px;
+    border: 1px solid;
+    border-color: rgb(135, 135, 135);
+    border-radius: 8px;
+    display: flex;
+}
+#bboxleft
+{
+    height: 483px;
+    width:540px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+#text3
+{
+    font-size: 150%;
+    text-align: left;
+    font-weight: 800;
+    line-height: 200%;
+}
+ul
+{
+    text-align: left;
+    list-style-type: none;
+    font-weight: 80%;
+}
+#bboxright
+{
+    height: 483px;
+    width:500px;
+    background-image: url(https://razorpay.com/build/browser/static/x-graphic.b40f463e.png);
+    background-size: cover;
+    background-position: center;
+}
+#boxes2
+{
+    height: 225px;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+.boxes2
+{
+    height: 225px;
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: rgb(135, 135, 135);
+    border-radius: 8px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    text-align: left;
+    
+}
+.pp1
+{  
+    font-weight: 1000;
+    font-size: 150%;
+}
+.pp2
+{
+    color: darkgray;
+    line-height: 150%;
+}
+.boxes2:hover
+{
+  border: none;
+}
+#check
+{
+    height: 114px;
+    width: 1080px;
+    border: 1px solid;
+    border-color: rgb(135, 135, 135);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#t1
+{
+    height: 33px;
+    width: 694px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 110%;
+    color: rgb(216, 216, 216);
+
+}
+#t2
+{
+    height: 50px;
+    width: 260px;
+    background-color:rgba(43, 132, 234,1);
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+#t2:hover
+{
+    background-color:rgb(48, 48, 255)
+}
+#section4
+{
+    background-color: white;
+    height: 750px;
+}
+#boxes3
+{
+    height: 595px;
+    width: 1080px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.boxes3
+{
+  height: 278px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  box-shadow: 5px 5px 5px darkgray;
+  border: 1px solid;
+  border-color: darkgray;
+  border-radius: 8px;
+  padding-left: 10px;
+  transition-timing-function: ease;
+  transition-delay: 175ms;
+  transform-origin: center;
+  cursor: pointer;
+}
+.boxes3:hover
+{
+  height: 290px;
+  width: 32%;
+    
+}
+#bbox1
+{
+    height: 278px;
+    width: 32%;  
+    text-align: left;
+    color: black;
+    font-size: 300%;
+    font-weight: 750;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#rp
+{
+    color:rgba(43, 132, 234,1);
+}
+.pic
+{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(43, 132, 234,1);
+    background-size: cover;
+    border-radius: 50px;
+
+}
+#pic2
+{  
+    background-image: url(https://razorpay.com/build/browser/static/instant-settlements.b6b6e467.svg);
+
+}
+#pic3
+{
+    background-image: url(https://razorpay.com/build/browser/static/upi-autopay.df1cd0fd.svg);
+}
+#pic4
+{
+    background-image: url(https://razorpay.com/build/browser/static/payment-buttons.74fc1e0f.svg);
+}
+#pic5
+{
+    background-image: url(https://razorpay.com/build/browser/static/qr-mc-code.aec73db1.svg);
+}
+#pic6
+{
+    background-image: url(https://razorpay.com/build/browser/static/supercheckout-comp.49cd2f79.svg);
+}
+.h1 
+{
+    color: black;
+    font-weight: 900;
+}
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+    #pg,#boxes,#find,#bbox,#boxes2,#check,#boxes3
+    {
+    
+        width:1024px;
+    
+    }
+    
+}
+
